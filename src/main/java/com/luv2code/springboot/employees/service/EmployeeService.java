@@ -5,7 +5,7 @@ import com.luv2code.springboot.employees.request.EmployeeRequest;
 
 import java.util.List;
 
-public interface EmployeeService {   // will look very similar to our DAO
+public interface EmployeeService {   // will look very similar to our DAO (now replaced with JpaRepository
 
     List<Employee> findAll();
 
